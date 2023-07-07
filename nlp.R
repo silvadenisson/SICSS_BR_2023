@@ -52,15 +52,14 @@ results <- classifier(tweets)
 # utilizando outros modelos
 
 # dando error
-model_path <- "cardiffnlp/twitter-xlm-roberta-base-sentiment"
-sentiment_task <- transformers$pipeline("sentiment-analysis", model=model_path, tokenizer=model_path)
+#model_path <- "cardiffnlp/twitter-xlm-roberta-base-sentiment"
+#sentiment_task <- transformers$pipeline("sentiment-analysis", model=model_path, tokenizer=model_path)
 
-tweets  <-list('Aneel anuncia reajuste de até 64% em valor de taxa extra da conta de luz', 
-               'Uma caixa de bom bom com o Prestígio da Nestlé, Caribe do Garoto e Amandita da Lacta seria a perfeição.', 
-               'Vasco da grana pra sempre... vou te amar... e na barreira eu vou festejar... e cantar... outra vez... com os loucos da saída 3🎶')
+#tweets  <-list('Aneel anuncia reajuste de até 64% em valor de taxa extra da conta de luz', 
+#               'Uma caixa de bom bom com o Prestígio da Nestlé, Caribe do Garoto e Amandita da Lacta seria a perfeição.', 
+#               'Vasco da grana pra sempre... vou te amar... e na barreira eu vou festejar... e cantar... outra vez... com os loucos da saída 3🎶')
 
-
-results <- sentiment_task(tweets)
+#results <- sentiment_task(tweets)
 
 # discurso de odio
 

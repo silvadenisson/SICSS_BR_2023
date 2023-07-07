@@ -16,8 +16,7 @@ library(reticulate)
 
 # ambiente e bliotecas python
 # conda_create("r-reticulate")
-# conda_install("r-reticulate", "transformers")
-# conda_install("r-reticulate", "PyTorch")
+# conda_install("r-reticulate", c("transformers", "PyTorch"))
 
 use_condaenv("r-reticulate")
 
